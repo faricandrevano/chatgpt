@@ -5,7 +5,7 @@ const app = express();
 const axios = require('axios');
 app.use(express.json());
 app.use(cors());
-const API_KEY = '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';
+const API_KEY = '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';
 
 app.post('/completions',async (req,res)=> {
 	const options = {
